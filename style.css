@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header CSS */
+header {
+  margin: 90px 0 0 100px;
+}
+
+header > h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 50px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 33px;
+  color: #3a3a3a;
+}
+
+/* Banner */
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+/* Banner-Left */
+.banner-left {
+  width: 800px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 90px;
+  color: #3a3a3a;
+}
+
+.banner-left p {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+
+.primary-btn {
+  border: 0;
+  display: flex;
+  padding: 10px 24px;
+  background: #e02c6d;
+  border-radius: 50px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0px 8px;
+  cursor: pointer;
+}
+
+.fa-arrow-right {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+/* Banner-right */
+.banner-right {
+  width: 550px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-right img {
+  position: relative;
+  width: 480px;
+  height: 454px;
+}
+
+.banner:hover .banner-right {
+  transform: scale(1.1) scaleY(0.85);
+  transition: 3s ease-in-out;
+}
+
+/* Section-Group */
+.section-group {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-group .heading {
+  text-align: center;
+  height: 70px;
+  margin: 100px 0 30px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 32px;
+  color: #3a3a3a;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.card img {
+  padding: 20px 20px 0;
+
+  width: 380px;
+  height: 330px;
+  border-radius: 5px;
+}
+
+.card-bottom {
+  padding: 0 20px;
+}
+
+.card-bottom .card-title {
+  margin: 16px 0 6px 0;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+}
+
+.card-bottom .price {
+  height: 36px;
+  margin: 0;
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.rating-star {
+  display: flex;
+  align-items: center;
+}
+
+.rating-star .icons {
+  left: 14px;
+  top: calc(50% - 16px / 2);
+}
+
+.rating-star .fa-star {
+  width: 16px;
+  height: 16px;
+  color: #f7822a;
+}
+
+.rating-star .rating {
+  margin: 0;
+  padding-left: 8px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #5e6366;
+}
+
+.card-bottom h3 {
+  height: 61px;
+
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.018em;
+  color: #787885;
+  margin: 0 0 17px 0;
+}
+
+.btn {
+  width: 1300px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn .primary-btn {
+  color: #e02c6d;
+  background-color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Contact Section Start */
+.contact-section {
+  height: 450px;
+  margin: 40px 0;
+  background-color: rgba(245, 250, 248, 0.473);
+}
+
+.fexible-container {
+  display: flex;
+  align-items: center;
+}
+.half-width {
+  width: 40%;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 260px;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+
+.half-width a {
+  text-decoration: none;
+  color: #5148d3;
+}
+.input-area {
+  width: 400px;
+  padding: 15px 0;
+  margin: 10px 0;
+}
+
+label {
+  font-size: 20px;
+}
+
+/* Contact Section End */
+
+/*Footer Section Start*/
+
+footer {
+  background: #0a0826;
+  height: 300px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+
+footer h1 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  color: #ffffff;
+  margin: 50px 0 3px;
+}
+
+footer h3 {
+  font-family: Manrope;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #d9dbe1;
+  margin: 5px 0 0;
+}
+
+footer .social-media {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+footer .icon-container {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 8px;
+  color: #fff;
+}
+
+/*Footer Section End*/
