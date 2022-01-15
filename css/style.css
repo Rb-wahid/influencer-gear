@@ -11,7 +11,7 @@ header {
 }
 
 header > h1 {
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 50px;
   font-family: "Poppins", sans-serif;
@@ -81,14 +81,13 @@ header > h1 {
 }
 
 .banner-right img {
-  position: relative;
   width: 480px;
   height: 454px;
 }
 
 .banner:hover .banner-right {
   transform: scale(1.1) scaleY(0.85);
-  transition: 3s ease-in-out;
+  transition: 2.2s ease-in-out;
 }
 
 /* Section-Group */
@@ -189,7 +188,7 @@ header > h1 {
 }
 
 .btn {
-  width: 1300px;
+  width: calc(100% + 105px);
   margin-top: 50px;
   display: flex;
   justify-content: flex-end;
