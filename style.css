@@ -43,6 +43,7 @@ header > h1 {
   font-size: 16px;
   line-height: 24px;
   color: #3a3a3a;
+  margin-bottom: 50px;
 }
 
 .primary-btn {
@@ -52,19 +53,18 @@ header > h1 {
   background: #e02c6d;
   border-radius: 50px;
   font-family: Poppins;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
+  line-height: 24px;
   color: #ffffff;
-  margin: 0px 8px;
+  margin: 0px 10px;
   cursor: pointer;
 }
 
 .fa-arrow-right {
   width: 24px;
   height: 24px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  padding-left: 8px;
   margin: 0px 8px;
 }
 
